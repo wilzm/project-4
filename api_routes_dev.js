@@ -42,7 +42,6 @@ router.get('/by_age/:start_age/:end_age', (req, res) => {
     let outputJSON = {
         employees: filtered_employees
     }
-
     res.json(outputJSON);
 
 })
